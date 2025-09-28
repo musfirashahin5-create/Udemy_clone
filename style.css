@@ -1,0 +1,163 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: Gabarito;
+    width: 100%;
+
+}
+
+.navigation {
+
+
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border-bottom: black solid 1px;
+    align-items: center;
+}
+
+.navigation__1 {
+    color: #A435F0;
+
+}
+
+.navigation__2 {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+
+}
+
+.navigation__2 input {
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.navigation__2 input:focus {
+    outline: none;
+}
+
+.navigation__3 {
+    display: flex;
+    gap: 10px;
+}
+.Catogories{
+    display:flex;
+    gap:10px;
+    border-bottom: solid black 1px;
+    padding:10px;
+    justify-content: space-around;
+    p{
+        background-color: #A435F0;
+        border-radius: 80px;
+        padding: 10px;
+        
+    }
+}
+.sale-image img{
+     width: 100%;
+}
+.card{
+    padding: 10px;
+ h3{
+    width: 200px;
+ }
+}
+.rec-sec {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;              
+    width: 100%;                  
+    gap: 20px;  
+    margin-top: 10px;
+
+    img{
+        width: 280px;
+        height: 200px;
+        display: flex;
+        gap:20px;
+        justify-content: space-evenly;
+    }
+}
+.rec-sec-1{
+    width: 200px;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    p{
+      border: solid black 1px;
+      padding: 10px;
+      flex-grow: 1;
+      flex-basis: 25%;
+      
+    }
+}
+.popular__container__1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;              
+    width: 100%;                  
+    gap: 20px;  
+    margin-top: 10px;
+
+    img{
+        width: 280px;
+        height: 200px;
+        display: flex;
+        gap:20px;
+        justify-content: space-evenly;
+    }
+}
+.popular__container__2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;              
+    width: 100%;                  
+    gap: 20px;  
+    margin-top: 10px;
+
+    img{
+        width: 280px;
+        height: 200px;
+        display: flex;
+        gap:20px;
+        justify-content: space-evenly;
+    }
+}
+.footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    
+}
+.footer__1{
+    display: flex;
+    gap: 50px;
+    p{
+        margin: 20px;
+    }
+}
+
+
+.footer__2{
+    display: flex;
+    justify-content: space-between;
+
+        margin: 20px;
+}
